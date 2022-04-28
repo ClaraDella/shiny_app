@@ -3,7 +3,7 @@ library(shinydashboard)      # <-- Change this line to: library(semantic.dashboa
 # library(semantic.dashboard)
 
 ui <- dashboardPage(
-    dashboardHeader(title = "Dashboard_Dasar"),
+    dashboardHeader(title = "dashboard dasar"),
     dashboardSidebar(sidebarMenu(
         menuItem(tabName = "home", text = "Home", icon = icon("home")),
         menuItem(tabName = "Introduction", text = "Introduction", icon = icon("adn")),
